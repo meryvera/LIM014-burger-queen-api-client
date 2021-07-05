@@ -7,6 +7,7 @@ export const TakeOrder = () => {
   const initialValues = { client: "", products: [] }
 
   const [state, setState] = React.useState(initialValues);
+
   const chosenProduct = (product) => {
     setState((prev) => ({...prev, products: [...prev.products, product]}))
   }

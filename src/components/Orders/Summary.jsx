@@ -86,7 +86,9 @@ export const Summary = ({state, setState, handleQty, initialValues, handleRemove
               }}>
               Borrar orden
             </button>
-            <button className="btn btn-danger">
+            <button className="btn btn-danger"
+              /* onClick={()=> sendOrderToChef()} */
+            >
               Enviar a cocina
             </button>
           </div>
